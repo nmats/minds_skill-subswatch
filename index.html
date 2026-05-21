@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>SubsWatch — エンタメサブスクの毎日の変化</title>
+  <meta name="description" content="Netflix・Spotify・PlayStation Plusなど15のエンタメサブスクサービスの追加・終了・更新を、毎朝06:30 JSTに自動更新でお届けします。" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Roboto+Mono:wght@400;500;700&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true">SW</span>
+        <span class="brand-name">SubsWatch</span>
+        <span class="brand-mute">by Animoca Brands Japan</span>
+      </div>
+      <div class="topbar-meta">
+        <span class="meta-label">Last updated</span>
+        <span id="published-at">—</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div>
+      <h1 class="hero-title">
+        <span id="hero-title-a">「気づいたら、消えてた」を、</span><span class="accent" id="hero-title-b">なくす</span><span id="hero-title-end">。</span>
+      </h1>
+      <p class="hero-sub" id="hero-sub">
+        映像・音楽・ゲームの15サービスから、今日終わる作品・新しく加わった作品を毎朝06:30 JSTにまとめてお届け。観られるうちに、観よう。
+      </p>
+    </div>
+  </section>
+
+  <nav class="tabwrap" aria-label="カテゴリ">
+    <div class="tabs" id="tabs" role="tablist"></div>
+  </nav>
+
+  <main id="main"></main>
+
+  <footer>
+    <div id="foot-a">SubsWatch v1.0 · GitHub Pages 静的サイト</div>
+    <div><span id="foot-b">Data:</span> <code>data/latest.json</code> <span id="foot-b-after">· SubsWatch Publisher が毎日更新</span></div>
+    <div id="foot-c">© 2026 Animoca Brands Japan</div>
+  </footer>
+
+  <aside id="tweaks" aria-label="Tweaks"></aside>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
