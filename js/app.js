@@ -66,7 +66,7 @@
       },
       sec: { removed: "配信終了", added: "新着追加", updated: "更新" },
       tabAll: "すべて",
-      cat: { video: "映像", music: "音楽", gaming: "ゲーム" },
+      cat: { "映像": "映像", "音楽": "音楽", "ゲーム": "ゲーム" },
       svcCount: (n) => `${n} サービス`,
       itemUnit: "件",
       emptyDay: "本日の更新はありません",
@@ -118,7 +118,7 @@
       },
       sec: { removed: "Leaving", added: "New", updated: "Updated" },
       tabAll: "All",
-      cat: { video: "Video", music: "Music", gaming: "Gaming" },
+      cat: { "映像": "Video", "音楽": "Music", "ゲーム": "Gaming" },
       svcCount: (n) => `${n} services`,
       itemUnit: "",
       emptyDay: "No updates today",
@@ -268,7 +268,7 @@
       { id: "all", label: t.tabAll, count: data.categories.reduce((n, c) => n + categoryTotals(c).total, 0) },
       ...data.categories.map((c) => ({
         id: c.category_id,
-        label: t.cat[c.category_id] || c.category_label,
+        label: t.cat[c.category_id] || c.category_id,
         count: categoryTotals(c).total,
       })),
     ];
@@ -330,14 +330,18 @@
             ? `<span class="date">${escapeHtml(datePrefix)}${escapeHtml(dateStr)}</span>`
             : "";
 
+          const linkOpen = it.source_url
+            ? `<a class="item-link" href="${escapeHtml(it.source_url)}" target="_blank" rel="noopener noreferrer">`
+            : `<span class="item-link">`;
+          const linkClose = it.source_url ? `</a>` : `</span>`;
           return `
           <li class="item">
-            <a class="item-link" href="${escapeHtml(it.source_url)}" target="_blank" rel="noopener noreferrer">
+            ${linkOpen}
               <span class="marker">${String(i + 1).padStart(2, "0")}</span>
               <span class="title">${escapeHtml(it.item_title)}</span>
               ${dateHtml}
-              <span class="arrow">→</span>
-            </a>
+              ${it.source_url ? `<span class="arrow">→</span>` : ""}
+            ${linkClose}
           </li>`;
         })
         .join("");
@@ -396,7 +400,7 @@
 
     const html = cats.map((cat, catIdx) => {
       const ct = categoryTotals(cat);
-      const catLabel = t.cat[cat.category_id] || cat.category_label;
+      const catLabel = t.cat[cat.category_id] || cat.category_id;
 
       const cards = cat.services
         .filter((s) => sumItems(s) > 0)
@@ -567,7 +571,12 @@
       </div>`;
 
     try {
-      const res = await fetch(DATA_URL, { cache: "no-store" });
+      const ptrRes = await fetch(DATA_URL, { cache: "no-store" });
+      if (!ptrRes.ok) throw new Error(`HTTP ${ptrRes.status}`);
+      const ptr = await ptrRes.json();
+      const latestRef = ptr.dates?.[0]?.ref;
+      if (!latestRef) throw new Error("No data reference found in latest.json");
+      const res = await fetch("data/" + latestRef, { cache: "no-store" });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       RAW = await res.json();
     } catch (err) {
