@@ -574,11 +574,16 @@
       const ptrRes = await fetch(DATA_URL, { cache: "no-store" });
       if (!ptrRes.ok) throw new Error(`HTTP ${ptrRes.status}`);
       const ptr = await ptrRes.json();
-      const latestRef = ptr.dates?.[0]?.ref;
-      if (!latestRef) throw new Error("No data reference found in latest.json");
-      const res = await fetch("data/" + latestRef, { cache: "no-store" });
-      if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      RAW = await res.json();
+      const dates = ptr.dates;
+      if (!dates?.length) throw new Error("No data reference found in latest.json");
+      let raw = null;
+      for (const entry of dates) {
+        if (!entry?.ref) continue;
+        const res = await fetch("data/" + entry.ref, { cache: "no-store" });
+        if (res.ok) { raw = await res.json(); break; }
+      }
+      if (!raw) throw new Error("No data files available");
+      RAW = raw;
     } catch (err) {
       console.error("[SubsWatch] failed to load data:", err);
       const t = I18N[tweakState.lang];
