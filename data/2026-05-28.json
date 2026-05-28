@@ -1,0 +1,662 @@
+{
+  "published_at": "2026-05-28T14:55:00+09:00",
+  "categories": [
+    {
+      "category_id": "映像",
+      "services": [
+        {
+          "service_id": "netflix_jp",
+          "service_label": "Netflix",
+          "items_added": [
+            {
+              "item_title": "トロルハンター: ライジング・タイタン",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "ラブ��イズ��ブ��ゴンヂ: 再伙",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "キッドナップ: ジリザベス・スヾーゴ哥哥事件",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "The Diplomat",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "木暜殺人クラブ",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "ジイコブや海の悤物�",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "トリシホ・フロンティィ",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "The Circle ブラジル編",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "闇金ウコブくんた ザ・ファイナル",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "origin",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "visit",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "us",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "confidential_international_confidential",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "shin_red_line",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "ladys_first",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "in_her_shoes",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "geoxstoms",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "12_years_a_slave",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "annie",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "focus",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "fury",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "mission_impossible_1_5",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "wbc_highlights",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [
+            {
+              "item_title": "あかね噫 笨八席",
+              "available_from": "2026-05-24",
+              "available_until": null
+            }
+          ],
+          "items_updated": []
+        },
+        {
+          "service_id": "disney_plus_jp",
+          "service_label": "Disney+",
+          "items_added": [
+            {
+              "item_title": "パニッシー：ワン・ラスト・キル",
+              "available_from": "2026-05-13",
+              "available_until": null
+            },
+            {
+              "item_title": "Kings Ransom",
+              "available_from": "2026-05-13",
+              "available_until": null
+            },
+            {
+              "item_title": "Bernie and Ernie",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "Run Ricky Run",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "Ghosts of Ole Miss",
+              "available_from": "2026-05-12",
+              "available_until": null
+            },
+            {
+              "item_title": "The Greatest Mixtape Ever",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "The New York Sack Exchange",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "Guru of Go",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "One and Not Done",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "Phi Slama Jama",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "マクロスFB7 銀河邩 オレのウセリキル!",
+              "available_from": "2026-05-14",
+              "available_until": null
+            },
+            {
+              "item_title": "リサ・アン・ウォルター：イット・ワズ・アクシデント",
+              "available_from": "2026-05-14",
+              "available_until": null
+            },
+            {
+              "item_title": "28_titles_including_new_episodes",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated":[]
+        },
+        {
+          "service_id": "u_next_jp",
+          "service_label": "U-NEXT",
+          "items_added": [
+            {
+              "item_title": "ダウントン・アビー�／グランドフィナーレ",
+              "available_from": "2026-05-22",
+              "available_until": null
+            },
+            {
+              "item_title": "龍が妀く Powered by 日本粱一",
+              "available_from": "2026-05-09",
+              "available_until": null
+            },
+            {
+              "item_title": "downton_abbey",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "tampun",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "train_to_busan",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "lord_of_monsters",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "sad_hill",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "i_can_speak",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated": []
+        },
+        {
+          "service_id": "hulu_jp",
+          "service_label": "Hulu",
+          "items_added":l
+            {
+              "item_title": "トレシテリコ／纙c��",
+              "available_from": "2026-05-22",
+              "available_until": null
+            },
+            {
+              "item_title": "木暜殺人クラブ",
+              "available_from": "2026-05-22",
+              "available_until": null
+            },
+            {
+              "item_title": "ボール.チンット",
+              "available_from": "2026-05-06",
+              "available_until": null
+            },
+            {
+              "item_title": "MAO",
+              "available_from": "2026-05-08",
+              "available_until": null
+            },
+            {
+              "item_title": "night_on_the_earth",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "fanfare",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "system_crasher",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated": []
+        },
+        {
+          "service_id": "amazon_prime_video_jp",
+          "service_label": "Amazon Prime Video",
+          "items_added": [
+            {
+              "item_title": "aquaslash",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "sunny",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "scream_6",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "anger",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "ecole",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "The Killing",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "pride_and_prejudice",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated": []
+        },
+        {
+          "service_id": "d_anime_jp",
+          "service_label": "dアニメストア",
+          "items_added": [
+            {
+              "item_title": "pokemon",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "kerokero_chime",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "bunst_strom_bringer",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "jujutsu_kaisen_movie",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "secret_of_kells",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "karakuri_circus",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "tenchi_muyo",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "pichi_pichi_pitch",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated":[]
+        },
+        {
+          "service_id": "apple_tv_plus_jp",
+          "service_label": "Apple TV+",
+          "items_added":[
+            {
+              "item_title": "lady_gaga",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "new_episodes",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated":[]
+        }
+      ]
+    },
+    {
+      "category_id": "龳楽",
+      "services": [
+        {
+          "service_id": "spotify_jp",
+          "service_label": "Spotify",
+          "items_added":[
+            {
+              "item_title": "RADAR Spotlights the Next Generation",
+              "available_from": "2026-05-05",
+              "available_until": null
+            },
+            {
+              "item_title": "jay_shetty_video",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "umg_licensing",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated":[]
+        },
+        {
+          "service_id": "apple_music_jp",
+          "service_label": "Apple Music",
+          "items_added":[
+            {
+              "item_title": "友田オレ - 陽募",
+              "available_from": "2026-05-13",
+              "available_until": null
+            },
+            {
+              "item_title": "DOMOTO - またね (EP)",
+              "available_from": "2026-05-05",
+              "available_until": null
+            },
+            {
+              "item_title": "Ziggo - i don't wanna go home",
+              "available_from": "2026-05-22",
+              "available_until": null
+            },
+            {
+              "item_title": "May J. - High Five!",
+              "available_from": "2026-05-01",
+              "available_until": null
+            },
+            {
+              "item_title": "takehara_pistol",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "domoto",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "utada_hikaru",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated": []
+        },
+        {
+          "service_id": "amazon_music_jp",
+          "service_label": "Amazon Music",
+          "items_added": [
+            {
+              "item_title": "nakamori_akina",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "scandal",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated":[]
+        },
+        {
+          "service_id": "line_music_jp",
+          "service_label": "LINE MUSIC",
+          "items_added": [
+            {
+              "item_title": "utada_hikaru",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "news",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated":[]
+        },
+        {
+          "service_id": "youtube_music_jp",
+          "service_label": "YouTube Music",
+          "items_added": [
+            {
+              "item_title": "utada_hikaru",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "news",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated":[]
+        }
+      ]
+    },
+    {
+      "category_id": "ゲーム",
+      "services": [
+        {
+          "service_id": "playstation_plus_jp",
+          "service_label": "PlayStation Plus",
+          "items_added":[
+            {
+              "item_title": "明末：ウツロノネ",
+              "available_from": "2026-05-05",
+              "available_until": null
+            },
+            {
+              "item_title": "九日ナインソール",
+              "availeble_from": "2026-05-05",
+              "available_until": null
+            },
+            {
+              "item_title": "ea_fc_26",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "myo_moku",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "nine_sols",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated": []
+        },
+        {
+          "service_id": "xbox_game_pass_jp",
+          "service_label": "Xbox Game Pass",
+          "items_added":[
+            {
+              "item_title": "マイフレンド・ペッパピッグ",
+              "available_from": "2026-05-20",
+              "available_until": null
+            },
+            {
+              "item_title": "Pigeon Simulator",
+              "available_from": "2026-05-20",
+              "available_until": null
+            },
+            {
+              "item_title": "Remnant II",
+              "available_from": "2026-05-20",
+              "available_until": null
+            },
+            {
+              "item_title": "Winter Burrow",
+              "available_from": "2026-05-20",
+              "available_until": null
+            },
+            {
+              "item_title": "Luna Abyss",
+              "available_from": "2026-05-21",
+              "available_until": null
+            },
+            {
+              "item_title": "Echo Generation 2",
+              "available_from": "2026-05-27",
+              "available_until": null
+            },
+            {
+              "item_title": "The Outer Worlds: Spacer’s Choice Edition",
+              "available_from": "2026-05-27",
+              "available_until": null
+            },
+            {
+              "item_title": "クラッシムウトクルー",
+              "available_from": "2026-05-28",
+              "available_until": null
+            },
+            {
+              "item_title": "Kabuto Park",
+              "available_from": "2026-05-28",
+              "available_until": null
+            },
+            {
+              "item_title": "ff_v",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "doom_dark_ages",
+              "available_from": null,
+              "available_until": null
+            },
+            {
+              "item_title": "forza_horizon_6",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [
+            {
+              "item_title": "Escape Simulator",
+              "available_from": "2026-05-26",
+              "available_until": null
+            }
+          ],
+          "items_updated": []
+        },
+        {
+          "service_id": "nintendo_switch_online_jp",
+          "service_label": "Nintendo Switch Online",
+          "items_added": [
+            {
+              "item_title": "virtual_boy",
+              "available_from": null,
+              "available_until": null
+            }
+          ],
+          "items_removed": [],
+          "items_updated": []
+        }
+      ]
+    }
+  ]
+}
